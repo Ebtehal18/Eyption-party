@@ -1,0 +1,176 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../images/events-heavenly-header.jpg);
+    background-position: center ;
+    background-size: cover;
+    min-height: 660px;
+
+}
+:root{
+    scroll-behavior: auto;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.sec-padding{
+    padding: 100px 0;
+}
+/* home section======================================================== */
+
+aside .content{
+    width: 250px;
+    height: 100vh;
+    background-color: #111;
+    padding-top:60px;
+    position: fixed;
+    white-space: nowrap;
+
+    z-index: 999;
+    
+}
+aside .content .close{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    padding-top: inherit;
+    font-size: 30px;
+    transition: all 0.3s;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+li{
+    list-style: none;
+}
+nav li a{
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+li a:hover,
+aside .content .close:hover{
+color: #d62e3366
+;
+}
+.icon span,
+.icon i{
+    font-size: 30px;
+}
+
+.icon {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%,-50%); 
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* duration ========================================================= */
+#duration .col-md-12 .heading{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(214, 46, 51, 0.6);;
+}
+#duration p.desc{
+    background-color: #ccc;
+    padding: 10px;
+    color: #212529;
+    display: none;
+}
+#duration .container{
+    width: 50%;
+}
+/*  details============================================================*/
+#details{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#details span{
+    font-weight: 500;
+    font-size: 30px;
+}
+#details .number{
+    border: 1px solid #fff;
+    white-space: nowrap;
+}
+/* contact========================================================== */
+#contact .row {
+    margin-top: 48px;
+}
+#contact h3{
+    font-size: 37px;
+    color: #444;
+    font-weight: 700;
+}
+#contact p{
+    columns: #777;
+    font-weight: 300;
+}
+#contact h4{
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+}
+.contact-info p{
+    color: #777;
+    line-height: 27px;
+}
+#contact i{
+    font-weight: 900;
+    color: #777;
+transition: all 0.5s;
+}
+#contact .colored-p{
+    font-weight: 400;
+    color:#d62e33
+}
+#contact .contact-method{
+    margin-bottom: 36px;
+}
+#contact ul li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    transition: all 0.5s;
+}
+#contact ul li:hover{
+ background-color: #D62E33;
+ border: 1px solid #D62E33;
+}
+#contact ul li:hover i{
+color: #fff;
+}
+#contact textarea{
+    resize: vertical;
+    height: 200px;
+}
+#conatct form p{
+    color: #212529
+    ;
+}
+#contact .character{
+    color: #d62e33
+    ;
+    font-size: 20px;
+    font-weight: 400;
+}

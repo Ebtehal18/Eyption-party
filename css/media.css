@@ -1,0 +1,44 @@
+@media screen and (max-width:819px) {
+  header div{
+    margin-bottom: 110px;
+  }
+    .icon{
+        left:7%
+    }
+    #duration .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:767px) {
+ h1{
+    font-size: 40px;
+    padding-top: 200px;
+ }
+ header div{
+    margin-bottom: 0;
+    display: block;
+  }
+aside .content{
+    width: 170px;    
+}
+nav li a{
+    font-size: 20px;
+}
+
+.icon{
+    left: 15%;
+}
+#duration .container{
+    width: 100%;
+}
+#contact .row {
+    margin-top: 35px;
+}
+#contact .form-info{
+    margin-top: 48px;
+}
+#details{
+    background-size: cover;
+}
+}
