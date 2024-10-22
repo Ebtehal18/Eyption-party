@@ -49,4 +49,4 @@ This project demonstrates a dynamic webpage built using **jQuery**. It features 
 - **jQuery**: For dynamic interactions, animations, and DOM manipulation.
 - **JavaScript**: For countdown functionality.
 - ## Live Version
-You can view the live version of this project at [Live Demo](https://your-live-demo-link.com).
+You can view the live version of this project at [Live Demo](https://ebtehal18.github.io/Eyption-party/).
